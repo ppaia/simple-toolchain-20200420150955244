@@ -1,0 +1,15 @@
+applications:
+- buildpack: java_buildpack
+  disk_quota: 1G
+  domain: null
+  host: null
+  instances: 1
+  memory: 256M
+  name: customerstoreapp
+  path: ./target/javaspringapp-1.0-SNAPSHOT.jar
+  routes:
+  - route: customerstoreapp.mybluemix.net
+  timeout: 180
+  env:
+    JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 10.0.2_13 } }'
