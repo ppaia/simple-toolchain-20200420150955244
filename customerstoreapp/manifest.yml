@@ -8,7 +8,7 @@ applications:
   name: customerstoreapp
   path: ./target/javaspringapp-1.0-SNAPSHOT.jar
   routes:
-  - route: customerstoreapp.mybluemix.net
+  - route: customerstoreapp.eu-gb.mybluemix.net
   timeout: 180
   env:
     JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
