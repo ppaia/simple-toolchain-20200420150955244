@@ -1,0 +1,14 @@
+{
+  "db2_db": "BLUDB",
+  "db2_dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=nzc12275;PWD=fcz0swc2jd+z5q60;",
+  "db2_host": "dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net",
+  "db2_hostname": "dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net",
+  "db2_https_url": "https://dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net:8443",
+  "db2_jdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net:50000/BLUDB",
+  "db2_password": "fcz0swc2jd+z5q60",
+  "db2_port": 50000,
+  "db2_ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=nzc12275;PWD=fcz0swc2jd+z5q60;Security=SSL;",
+  "db2_ssljdbcurl": "jdbc:db2://dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net:50001/BLUDB:sslConnection=true;",
+  "db2_uri": "db2://nzc12275:fcz0swc2jd%2Bz5q60@dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net:50000/BLUDB",
+  "db2_username": "nzc12275"
+}

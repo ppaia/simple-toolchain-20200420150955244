@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "db2_db": {
+    "searchPatterns": [
+      "user-provided::db",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.db",
+      "env:service_db2:$.db",
+      "env:db2_db",
+      "file://localdev-config.json:$.db2_db"
+    ]
+  },
+  "db2": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided::username",
+        "cloudfoundry:db2",
+        "env:db2_credentials",
+        "file://localdev-config.json:db2_credentials"
+      ]
+    }
+  },
+  "db2_dsn": {
+    "searchPatterns": [
+      "user-provided::dsn",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.dsn",
+      "env:service_db2:$.dsn",
+      "env:db2_dsn",
+      "file://localdev-config.json:$.db2_dsn"
+    ]
+  },
+  "db2_host": {
+    "searchPatterns": [
+      "user-provided::host",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.host",
+      "env:service_db2:$.host",
+      "env:db2_host",
+      "file://localdev-config.json:$.db2_host"
+    ]
+  },
+  "db2_hostname": {
+    "searchPatterns": [
+      "user-provided::hostname",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.hostname",
+      "env:service_db2:$.hostname",
+      "env:db2_hostname",
+      "file://localdev-config.json:$.db2_hostname"
+    ]
+  },
+  "db2_https_url": {
+    "searchPatterns": [
+      "user-provided::https_url",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.https_url",
+      "env:service_db2:$.https_url",
+      "env:db2_https_url",
+      "file://localdev-config.json:$.db2_https_url"
+    ]
+  },
+  "db2_jdbcurl": {
+    "searchPatterns": [
+      "user-provided::jdbcurl",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.jdbcurl",
+      "env:service_db2:$.jdbcurl",
+      "env:db2_jdbcurl",
+      "file://localdev-config.json:$.db2_jdbcurl"
+    ]
+  },
+  "db2_password": {
+    "searchPatterns": [
+      "user-provided::password",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.password",
+      "env:service_db2:$.password",
+      "env:db2_password",
+      "file://localdev-config.json:$.db2_password"
+    ]
+  },
+  "db2_port": {
+    "searchPatterns": [
+      "user-provided::port",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.port",
+      "env:service_db2:$.port",
+      "env:db2_port",
+      "file://localdev-config.json:$.db2_port"
+    ]
+  },
+  "db2_ssldsn": {
+    "searchPatterns": [
+      "user-provided::ssldsn",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.ssldsn",
+      "env:service_db2:$.ssldsn",
+      "env:db2_ssldsn",
+      "file://localdev-config.json:$.db2_ssldsn"
+    ]
+  },
+  "db2_ssljdbcurl": {
+    "searchPatterns": [
+      "user-provided::ssljdbcurl",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.ssljdbcurl",
+      "env:service_db2:$.ssljdbcurl",
+      "env:db2_ssljdbcurl",
+      "file://localdev-config.json:$.db2_ssljdbcurl"
+    ]
+  },
+  "db2_uri": {
+    "searchPatterns": [
+      "user-provided::uri",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.uri",
+      "env:service_db2:$.uri",
+      "env:db2_uri",
+      "file://localdev-config.json:$.db2_uri"
+    ]
+  },
+  "db2_username": {
+    "searchPatterns": [
+      "user-provided::username",
+      "cloudfoundry:$['dashDB For Transactions'][0].credentials.username",
+      "env:service_db2:$.username",
+      "env:db2_username",
+      "file://localdev-config.json:$.db2_username"
+    ]
+  }
+}
